@@ -224,10 +224,83 @@ const diagnosticNav: NavGroup[] = [
   },
 ];
 
+const eyeNav: NavGroup[] = [
+  {
+    label: "Overview",
+    items: [
+      { title: "Dashboard", path: "dashboard", icon: LayoutDashboard },
+      { title: "Eye Clinic Overview", path: "eye", icon: Eye },
+    ],
+  },
+  {
+    label: "Eye Clinic",
+    items: [
+      { title: "Eye Exams", path: "eye/exams", icon: Eye },
+      { title: "Optical Prescriptions", path: "eye/prescriptions", icon: Glasses },
+      { title: "Contact Lenses", path: "eye/contact-lenses", icon: Contact },
+      { title: "Optical Orders", path: "eye/orders", icon: ShoppingCart },
+      { title: "Diagnostics", path: "eye/diagnostics", icon: Activity },
+      { title: "Surgery Bookings", path: "eye/surgery", icon: Scissors },
+    ],
+  },
+  {
+    label: "Patient Care",
+    items: [
+      { title: "Patients", path: "patients", icon: Users },
+      { title: "Appointments", path: "appointments", icon: CalendarDays },
+      { title: "Waiting List", path: "waiting-list", icon: Clock },
+      { title: "Schedules", path: "schedules", icon: CalendarClock },
+      { title: "Prescriptions", path: "prescriptions", icon: Stethoscope },
+      { title: "Consent Forms", path: "consent-forms", icon: FileCheck },
+      { title: "Reviews", path: "reviews", icon: Star },
+    ],
+  },
+  {
+    label: "Finance",
+    items: [
+      { title: "Billing", path: "billing", icon: CreditCard },
+      { title: "Estimates", path: "estimates", icon: FileText },
+      { title: "Payment Plans", path: "payment-plans", icon: Wallet },
+      { title: "Expenses", path: "expenses", icon: Receipt },
+      { title: "Revenue Allocation", path: "revenue-allocation", icon: DollarSign },
+      { title: "Profitability", path: "profitability", icon: TrendingUp },
+    ],
+  },
+  {
+    label: "Reports",
+    items: [
+      { title: "Reports", path: "reports", icon: BarChart3 },
+      { title: "Advanced Analytics", path: "analytics", icon: LineChart },
+    ],
+  },
+  {
+    label: "Inventory & Supply",
+    items: [
+      { title: "Inventory", path: "inventory", icon: Package },
+      { title: "Suppliers", path: "suppliers", icon: Truck },
+      { title: "Purchase Orders", path: "purchase-orders", icon: ShoppingCart },
+    ],
+  },
+  {
+    label: "Administration",
+    items: [
+      { title: "Staff", path: "staff", icon: UserCog },
+      { title: "Documents", path: "documents", icon: FolderOpen },
+      { title: "Audit Log", path: "audit-log", icon: Shield },
+      { title: "Website Settings", path: "website-settings", icon: Globe },
+      { title: "Shop Management", path: "shop-management", icon: ShoppingCart },
+    ],
+  },
+];
+
 export const clinicTypeConfig: Record<string, ClinicTypeConfig> = {
   dental: {
     label: "Dental Clinic",
     navGroups: dentalNav,
+  },
+  eye: {
+    label: "Eye Clinic",
+    navGroups: eyeNav,
   },
   diagnostic: {
     label: "Diagnostic Centre",
