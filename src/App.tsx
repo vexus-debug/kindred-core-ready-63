@@ -86,6 +86,15 @@ import ScanActivityPage from "./pages/dashboard/imaging/ScanActivityPage";
 import DrugStockPage from "./pages/dashboard/pharmacy/DrugStockPage";
 import DispensingPage from "./pages/dashboard/pharmacy/DispensingPage";
 
+// Eye clinic
+import EyeOverviewPage from "./pages/dashboard/eye/EyeOverviewPage";
+import EyeExamsPage from "./pages/dashboard/eye/EyeExamsPage";
+import OpticalPrescriptionsPage from "./pages/dashboard/eye/OpticalPrescriptionsPage";
+import ContactLensPage from "./pages/dashboard/eye/ContactLensPage";
+import OpticalOrdersPage from "./pages/dashboard/eye/OpticalOrdersPage";
+import EyeDiagnosticsPage from "./pages/dashboard/eye/EyeDiagnosticsPage";
+import SurgeryBookingsPage from "./pages/dashboard/eye/SurgeryBookingsPage";
+
 // Public result lookup
 import PublicResultPage from "./pages/PublicResultPage";
 
