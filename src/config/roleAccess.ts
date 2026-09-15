@@ -69,6 +69,14 @@ export const PAGE_ROLE_ACCESS: Record<string, OrgRole[]> = {
   // Diagnostic centre — pharmacy
   "pharmacy/drugs": ["owner", "admin", "receptionist", "assistant"],
   "pharmacy/dispensing": ["owner", "admin", "receptionist", "assistant"],
+  // Eye clinic
+  "eye": ["owner", "admin", "dentist", "hygienist", "receptionist"],
+  "eye/exams": ["owner", "admin", "dentist", "hygienist"],
+  "eye/prescriptions": ["owner", "admin", "dentist", "hygienist"],
+  "eye/contact-lenses": ["owner", "admin", "dentist", "hygienist", "assistant"],
+  "eye/orders": ["owner", "admin", "receptionist", "assistant"],
+  "eye/diagnostics": ["owner", "admin", "dentist", "hygienist", "lab_technician"],
+  "eye/surgery": ["owner", "admin", "dentist", "receptionist"],
 };
 
 /**
