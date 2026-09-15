@@ -5,7 +5,7 @@ import {
   FileCheck, FolderOpen, Eye, Heart, Baby, Bone, Ear, Wallet, FileText,
   PiggyBank, TrendingUp, Calculator, Clock, CalendarClock, Truck,
   ShoppingCart, Link2, LineChart, Globe, Megaphone, Mail, CalendarRange, Ticket, BadgeCheck,
-  ScanLine, Pill, FileSearch,
+  ScanLine, Pill, FileSearch, Glasses, Contact, Activity, Scissors,
 } from "lucide-react";
 
 export interface NavItem {
