@@ -271,6 +271,15 @@ const App = () => (
               {/* Diagnostic centre — pharmacy */}
               <Route path="pharmacy/drugs" element={<DrugStockPage />} />
               <Route path="pharmacy/dispensing" element={<DispensingPage />} />
+
+              {/* Eye clinic */}
+              <Route path="eye" element={<EyeOverviewPage />} />
+              <Route path="eye/exams" element={<EyeExamsPage />} />
+              <Route path="eye/prescriptions" element={<OpticalPrescriptionsPage />} />
+              <Route path="eye/contact-lenses" element={<ContactLensPage />} />
+              <Route path="eye/orders" element={<OpticalOrdersPage />} />
+              <Route path="eye/diagnostics" element={<EyeDiagnosticsPage />} />
+              <Route path="eye/surgery" element={<SurgeryBookingsPage />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
